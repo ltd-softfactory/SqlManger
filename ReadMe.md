@@ -1,13 +1,13 @@
-# Getting Started
+# SQL运维管理工具
 
-### Reference Documentation
-For further reference, please consider the following sections:
+### 说明
+开发过程中数据库结构创建、变更及数据修改、删除 都没有表面上的留痕与审计操作，因此创建一个脚本管理工具。当前想法:
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.1.7.RELEASE/maven-plugin/)
-* [Apache Freemarker](https://docs.spring.io/spring-boot/docs/{bootVersion}/reference/htmlsingle/#boot-features-spring-mvc-template-engines)
-* [Spring Web Starter](https://docs.spring.io/spring-boot/docs/{bootVersion}/reference/htmlsingle/#boot-features-developing-web-applications)
-* [JDBC API](https://docs.spring.io/spring-boot/docs/{bootVersion}/reference/htmlsingle/#boot-features-sql)
+* SQL脚本记录创建、审核、审计、删除
+* 开发人员、测试人员通过系统创建、删除、执行SQL脚本
+* 管理人员审核、审计、查看SQL脚本及执行日志
+* 运维人员可以在生产环境执行SQL脚本
+* SQL脚本的版本管理
 
 ### Guides
 The following guides illustrate how to use some features concretely:
